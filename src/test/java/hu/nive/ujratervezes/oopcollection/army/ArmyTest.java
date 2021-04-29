@@ -17,7 +17,7 @@ class ArmyTest {
 
     @BeforeEach
     void init() {
-        army = new Army();
+        army = new Army(army);
     }
 
     /*
